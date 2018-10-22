@@ -1,1 +1,17 @@
-theme: jekyll-theme-minimal
+# Site settings
+title: rtaxa
+description: "test."
+baseurl: ""
+url: "http://rtaxa.github.io"
+#twitter_username: test
+github_username:  rtaxa
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+highlighter: rouge
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
